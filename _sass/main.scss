@@ -1,0 +1,52 @@
+div.background {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../images/retailBackground.jpeg');
+  background-size: cover;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.5);
+  }
+}
+
+div.transbox {
+  margin: 4rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.85;
+  text-align: center;
+
+}
+
+div.transbox h1 {
+  font-size: 4rem;
+  margin: 1rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+div.transbox h3{
+  margin: 1rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+.people {
+  border: none;
+}
+
+.people tr:nth-child(even) {
+  background-color: white;
+}

@@ -1,0 +1,12 @@
+- name: Task1
+  content: Task1 content
+  server: task1.server
+- name: Task2
+  content: Task2 content
+  server: task2.server
+- name: Task3
+  content: Task3 content
+  server: task3.server
+- name: Task4
+  content: Task4 content
+  server: task4.server
