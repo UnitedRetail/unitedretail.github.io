@@ -23,12 +23,8 @@ permalink: /evaluation/
   </thead>
   <tbody>
     <tr>
-      <td>Fangyi Chen</td>
-      <td>12/12/2021</td>
-    </tr>
-     <tr>
-      <td>Fangyi Chen1234</td>
-      <td>12/12/2021</td>
+      <td>Name1</td>
+      <td>Date1</td>
     </tr>
   </tbody>
 </table>
