@@ -5,7 +5,7 @@ div.background {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../images/retailBackground.jpeg');
+  background-image: url('../images/bkgd.jpg');
   background-size: cover;
 
   &::before {
@@ -25,7 +25,7 @@ div.transbox {
   border-radius: 0.5rem;
   background-color: #ffffff;
   border: 1px solid black;
-  opacity: 0.85;
+  opacity: 0.65;
   text-align: center;
 
 }
