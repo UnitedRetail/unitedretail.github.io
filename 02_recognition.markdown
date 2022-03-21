@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Recognition
-permalink: /recognition/
-brief: Matching Products with Preferences
+title: Unitail-OCR
+permalink: /Unitail-OCR/
+brief: Reading Enhanced Product Matching
 description: This is Recognition description
 downloadsList:
 - {
