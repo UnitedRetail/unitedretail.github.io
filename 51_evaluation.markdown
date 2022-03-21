@@ -5,15 +5,15 @@ permalink: /evaluation/
 ---
 <hr>
 <br>
-{% for task in site.data.tasks %}
+
 <div>
-  <h2>{{ task.name }} Server</h2>
-  <p>{{ task.server }}</p>
+  <h2>Evaluation Server</h2>
+  <p><a href="http://128.2.24.114:8000">Unitail Evaluation</a>
+    </p>
 </div>
-{% endfor %}
 
 <h2>Leaderboard</h2>
-<h4>Task1</h4>
+<h4>Product Detection</h4>
 <table>
   <thead>
     <tr>
