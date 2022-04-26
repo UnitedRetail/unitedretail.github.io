@@ -23,9 +23,9 @@ description: The Unitail-OCR consists of an open-set gallery and a testing suite
 
 downloadsList:
 - {
-  description: "Unitail-OCR demo gallery",
+  description: "Unitail-OCR dataset",
   urlname: "Google Drive",
-  url: "https://drive.google.com/file/d/1Hn_D0G3YiTdxVISCzsazIhQ_awEzB42X/view?usp=sharing"
+  url: "https://drive.google.com/file/d/1quJZdXXtzJ4VyprivwQIa3ldHCua_Ayq/view?usp=sharing"
   }
 ---
 {% include datasetPage.html %}
