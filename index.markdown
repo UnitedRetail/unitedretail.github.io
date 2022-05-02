@@ -27,7 +27,9 @@ layout: home
         reading, and matching. It offers the Unitial-Det, with 1.8M quadrilateral-shaped 
         instances annotated; and the Unitial-OCR, containing 1454 product categories, 30k 
         text regions, and 21k transcriptions to enable robust reading on products and 
-        motivate enhanced product matching.  
+        motivate enhanced product matching.
+        <br>
+        All images and their associated annotations in Unitail can be used for academic purposes only.
     </p>
 </div>
 

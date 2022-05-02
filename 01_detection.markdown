@@ -2,7 +2,7 @@
 layout: page
 title: Unitail-Det
 permalink: /Unitail-Det/
-brief: Detecting Products as Quadrilaterals
+brief: Detecting Densely-packed Products as Quadrilaterals
 Image: Images are collected from two sources to support product detection.
         The training, validation, and origin-domain testing sets are collected 
         from the <a href="https://github.com/eg4000/SKU110K_CVPR19">SKU110k</a>.
@@ -15,9 +15,29 @@ Image: Images are collected from two sources to support product detection.
 
 downloadsList:
 - {
-  description: "In this demo site, we only provides a small group of demo images",
-  urlname: "google drive",
+  description: "",
+  urlname: "Demo examples",
   url: "https://drive.google.com/file/d/1hjpFtPA5rx8ydR6OW4OtMhWMzaDGZi15/view?usp=sharing"
+  }
+- {
+  description: "Images of training, validation, and origin-domain testing are available at",
+  urlname: "SKU110K",
+  url: "https://github.com/eg4000/SKU110K_CVPR19"
+  }
+- {
+  description: "",
+  urlname: "Images of cross-domain testing",
+  url: "https://drive.google.com/file/d/1mI3M2bvgjutAk0aOnYVi7zvcOBwgp48g/view?usp=sharing"
+  }
+- {
+  description: "",
+  urlname: "Training Annotation",
+  url: "https://drive.google.com/file/d/1b-JmWXamxP_bojimuCfo5XiyI26V93aG/view?usp=sharing"
+  }
+- {
+  description: "",
+  urlname: "Validation Annotation",
+  url: "https://drive.google.com/file/d/15Box3bckK37TQLyIct3skirv1OQ6Cj4L/view?usp=sharing"
   }
 ---
 
@@ -34,7 +54,7 @@ downloadsList:
   <ul>
     {% for download in page.downloadsList %}
     <li>
-      <h4>{{ download.description }} <br><a href="{{download.url}}">{{download.urlname}}</a></h4>
+      <h4>{{ download.description }} <a href="{{download.url}}">{{download.urlname}}</a></h4>
     </li>
     {% endfor %}
   </ul>

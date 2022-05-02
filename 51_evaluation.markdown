@@ -17,14 +17,18 @@ permalink: /evaluation/
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Date</th>
+      <th>Model</th>
+      <th>g-mAP</th>
+      <th>origin</th>
+      <th>cross</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Name1</td>
-      <td>Date1</td>
+      <td>RetailDet</td>
+      <td>54.7</td>
+      <td>58.7</td>
+      <td>50.9</td>
     </tr>
   </tbody>
 </table>
@@ -33,14 +37,21 @@ permalink: /evaluation/
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Date</th>
+      <th>Model</th>
+      <th>Hard Track Acc</th>
+      <th>General Track Acc</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Name1</td>
-      <td>Date1</td>
+      <td>Text Only Baseline 1</td>
+      <td>-</td>
+      <td>30.37</td>
+    </tr>
+    <tr>
+      <td>Text Only Baseline 2</td>
+      <td>31.71</td>
+      <td>47.81</td>
     </tr>
   </tbody>
 </table>
