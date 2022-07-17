@@ -40,6 +40,12 @@ layout: home
   <h2>Citation</h2>
   <pre>
     <code>
+        @inproceedings{Chen2022unitail,
+        title={Unitail: Detecting, Reading, and Matching in Retail Scene},
+        author={Chen, Fangyi and Zhang, Han and Li, Zaiwang and Dou, Jiachen and Mo, Shentong and Chen, Hao and Zhang, Yongxin and Ahmed, Uzair and Zhu, Chenchen and Savvides, Marios},
+        booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},    
+        year={2022}
+        }
     </code>
   </pre>
 </div>
