@@ -44,58 +44,16 @@ permalink: /tasks/
     <h2>Text Detection</h2>
     <div>
         The goal is to detect text regions from pre-localized product images. 
-        Unitail-OCR supports the training and evaluation.
-        <br>
-        A Pickle file named "textdet.pkl" is required for evaluation, following the format below <span>&#58;</span>
+        Unitail-OCR provides the training and testing. Like ICDAR 2015, no validation set is provided.
     </div>
-    <table>
-        <tr>
-            <td>{
-                <br>
-                <p style="margin-left:1em">"imgs" <span>&#58;</span>                </p>
-                <p style="margin-left:3em">   [test_x1.jpg,                       </p>
-                <p style="margin-left:3em">    test_x2.jpg,                       </p>
-                <p style="margin-left:3em">     ... ...,                            </p>
-                <p style="margin-left:3em">    test_x3.jpg]                       </p>
-                <p style="margin-left:1em">"textbox"<span>&#58;</span>                 </p>
-                <p style="margin-left:3em">   [<np.ndarray, float32> (n1, 9),   # results from 'test_x1.jpg'         </p>
-                <p style="margin-left:3em">    <np.ndarray, float32> (n2, 9),       </p>
-                <p style="margin-left:3em">     ... ...,                            </p>
-                <p style="margin-left:3em">    <np.ndarray, float32> (n3, 9)]       </p>
-                }
-                <br>
-                where each <np.ndarray, float32> contains n quadrilaterals in the order of (x1, y1, x2, y2, x3, y3, x4, y4, score) 
-            </td>
-        </tr>
-    </table>
 </div>
 
 <div>
     <h2>Text Recognition</h2>
     <div>
         The goal is to recognize words over a set of pre-localized text regions. 
-        Unitail-OCR supports the training and evaluation.
-        A Pickle file named "textrecog.pkl" is required for evaluation, following the format below <span>&#58;</span>
+        Unitail-OCR provides the training and testing. Like ICDAR 2015, no validation set is provided.
     </div>
-    <table>
-        <tr>
-            <td>{
-                <br>
-                <p style="margin-left:1em">"imgs" <span>&#58;</span>                </p>
-                <p style="margin-left:3em">   [test_x1.jpg,                       </p>
-                <p style="margin-left:3em">    test_x2.jpg,                       </p>
-                <p style="margin-left:3em">     ... ...,                            </p>
-                <p style="margin-left:3em">    test_x3.jpg]                       </p>
-                <p style="margin-left:1em">"word"<span>&#58;</span>                 </p>
-                <p style="margin-left:3em">   ['organics',   # results from 'test_x1.jpg'         </p>
-                <p style="margin-left:3em">    'sugar',       </p>
-                <p style="margin-left:3em">     ... ...,                            </p>
-                <p style="margin-left:3em">    'health']       </p>
-                }
-                <br>
-            </td>
-        </tr>
-    </table>
 </div>
 
 <div>
