@@ -1,3 +1,7 @@
+- time: Nov 2022
+  content: The training and testing data for Unitail-OCR text detection and recognition tasks is available <a href="https://drive.google.com/file/d/1d71BFph0e0OCvkD_Cnogyp9DUz-wwZG6/view?usp=share_link">easy to use</a>
+- time: Nov 2022
+  content: We release the code based on MMOCR that supports Unitail-OCR
 - time: July 2022
   content: The <a href="https://arxiv.org/abs/2204.00298">article of Unitail</a> has been accepted to ECCV2022!
 - time: May 2022

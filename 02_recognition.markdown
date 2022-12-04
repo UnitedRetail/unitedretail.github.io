@@ -25,7 +25,12 @@ downloadsList:
 - {
   description: "Unitail-OCR dataset",
   urlname: "Google Drive",
-  url: "https://drive.google.com/file/d/1quJZdXXtzJ4VyprivwQIa3ldHCua_Ayq/view?usp=sharing"
+  url: "https://drive.google.com/file/d/1d71BFph0e0OCvkD_Cnogyp9DUz-wwZG6/view?usp=share_link"
+  }
+- {
+  description: "mmocr implementation",
+  urlname: "code",
+  url: "https://github.com/Fangyi-Chen/mmocr-unitail"
   }
 ---
 {% include datasetPage.html %}
